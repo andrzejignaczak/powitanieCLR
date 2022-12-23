@@ -4,6 +4,12 @@ using namespace System;
 
 int main(array<System::String ^> ^args)
 {
-    Console::WriteLine(L"Witaj Swiecie");
+    //String^ imie;
+    Console::Write ("Podaj swoje imie : ");
+    String^ imie = Console::ReadLine();
+
+    Console::WriteLine(L"Witaj "+imie+" w Kursie C++");
+    //Console::Read();
     return 0;
 }
+ 
